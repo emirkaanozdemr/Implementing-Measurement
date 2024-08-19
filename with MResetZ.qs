@@ -1,7 +1,8 @@
 namespace Kata {
     open Microsoft.Quantum.Diagnostics;
     open Microsoft.Quantum.Math;
-    open Microsoft.Quantum.Measurement;  // MResetZ için gerekli kütüphane
+    open Microsoft.Quantum.Measurement;  
+
 
     @EntryPoint()
     operation SimpleMeasurementDemo() : Unit {
