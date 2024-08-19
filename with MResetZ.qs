@@ -11,7 +11,6 @@ namespace Kata {
         Message("Qubit in state |𝜓❭:");
         DumpMachine();
 
-        // Ölçüm ve sıfırlama işlemi
         let outcome = MResetZ(q);
         Message($"The measurement outcome is {outcome}.");
         Message("Post-measurement state of the qubit:");
